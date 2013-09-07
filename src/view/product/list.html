@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>{% block title %}Greetings!{% endblock %}</title>
+</head>
+<body>
+{% block body %}
+<ul>
+{% if products %}
+  {% for product in products %}
+    <li>
+        <h3>{{ product.title }}<h3>
+                <img src="{{ product.image }}"/>
+                <p>{{ product.description }}</p>
+          
+    </li>
+  {% endfor %}
+{% else %}
+<li>No products!</li>
+{% endif %}
+</ul>
+<a href="{% url action="add" %}">Add product</a>
+{% endblock %}
+</body></html>

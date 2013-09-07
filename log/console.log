@@ -1,0 +1,110 @@
+2013-09-07 12:10:29.460 [info] <0.1190.0> POST /admin/model/heartbeat/2 [cb_admin] 200 59ms
+2013-09-07 12:10:57.517 [info] <0.1192.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:49:50.563 [info] <0.7.0> Application lager started on node 'klunsr@Johans-MacBook-Air'
+2013-09-07 22:49:50.653 [info] <0.7.0> Application crypto started on node 'klunsr@Johans-MacBook-Air'
+2013-09-07 22:49:50.675 [info] <0.7.0> Application mimetypes started on node 'klunsr@Johans-MacBook-Air'
+2013-09-07 22:49:50.753 [info] <0.81.0> Starting Boss in development mode....
+
+2013-09-07 22:49:50.772 [info] <0.7.0> Application mongodb started on node 'klunsr@Johans-MacBook-Air'
+2013-09-07 22:49:50.886 [info] <0.81.0> Starting master services on 'klunsr@Johans-MacBook-Air'
+
+2013-09-07 22:49:50.910 [info] <0.7.0> Application tinymq started on node 'klunsr@Johans-MacBook-Air'
+2013-09-07 22:49:50.968 [info] <0.81.0> SSL:[]
+
+2013-09-07 22:49:50.974 [info] <0.81.0> Starting cowboy... on 'klunsr@Johans-MacBook-Air'
+
+2013-09-07 22:49:50.983 [info] <0.7.0> Application ranch started on node 'klunsr@Johans-MacBook-Air'
+2013-09-07 22:49:51.002 [info] <0.7.0> Application cowboy started on node 'klunsr@Johans-MacBook-Air'
+2013-09-07 22:49:51.002 [info] <0.81.0> Starting http listener... on 8001 
+
+2013-09-07 22:49:51.065 [info] <0.7.0> Application boss started on node 'klunsr@Johans-MacBook-Air'
+2013-09-07 22:49:51.105 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:49:51.675 [info] <0.7.0> Application cb_admin started on node 'klunsr@Johans-MacBook-Air'
+2013-09-07 22:49:51.676 [info] <0.371.0> Loading routes from "../cb_admin/priv/cb_admin.routes" ....
+2013-09-07 22:49:57.646 [info] <0.376.0> POST /admin/model/heartbeat/2 [cb_admin] 200 85ms
+2013-09-07 22:50:03.887 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:50:03.888 [error] <0.379.0> GET / [klunsr] 404 1ms
+2013-09-07 22:50:07.327 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:50:07.328 [error] <0.379.0> GET /list [klunsr] 404 1ms
+2013-09-07 22:50:10.709 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:50:10.711 [error] <0.379.0> GET /list/ [klunsr] 404 1ms
+2013-09-07 22:50:21.936 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:50:22.070 [info] <0.386.0> GET /product/list/ [klunsr] 200 134ms
+2013-09-07 22:50:28.480 [info] <0.400.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:50:59.485 [info] <0.402.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:51:30.486 [info] <0.404.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:52:01.490 [info] <0.406.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:52:32.491 [info] <0.408.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:53:03.497 [info] <0.410.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:53:34.499 [info] <0.412.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:53:48.106 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:53:48.214 [info] <0.414.0> GET /product/list/ [klunsr] 200 107ms
+2013-09-07 22:53:50.024 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:53:50.110 [info] <0.415.0> GET /product/add [klunsr] 200 86ms
+2013-09-07 22:54:05.503 [info] <0.447.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:54:28.339 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:54:28.425 [info] <0.449.0> POST /product/add [klunsr] 302 86ms
+2013-09-07 22:54:28.430 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:54:28.511 [error] <0.92.0> gen_server <0.92.0> terminated with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78
+2013-09-07 22:54:28.514 [error] <0.92.0> CRASH REPORT Process <0.92.0> with 0 neighbours exited with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in gen_server:terminate/6 line 744
+2013-09-07 22:54:28.516 [error] <0.88.0> Supervisor poolboy_sup had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.92.0> exit with reason no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in context child_terminated
+2013-09-07 22:54:28.518 [error] <0.449.0> {{function_clause,[{boss_record_lib,convert_value_to_type,[undefined,string],[{file,"src/boss_record_lib.erl"},{line,78}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,413}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,145}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]}]},{gen_server,call,[<0.92.0>,{find,product,[],all,0,id,ascending,[]},30000]}}
+2013-09-07 22:54:28.527 [error] <0.449.0> GET /product/list [klunsr] 500 97ms
+2013-09-07 22:54:36.503 [info] <0.468.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:55:07.512 [info] <0.470.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:55:19.416 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:55:19.498 [info] <0.472.0> GET /product/add [klunsr] 200 82ms
+2013-09-07 22:55:23.728 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:55:23.803 [info] <0.472.0> POST /product/add [klunsr] 302 75ms
+2013-09-07 22:55:23.807 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:55:23.882 [error] <0.89.0> gen_server <0.89.0> terminated with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78
+2013-09-07 22:55:23.885 [error] <0.89.0> CRASH REPORT Process <0.89.0> with 1 neighbours exited with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in gen_server:terminate/6 line 744
+2013-09-07 22:55:23.887 [error] <0.472.0> {{function_clause,[{boss_record_lib,convert_value_to_type,[undefined,string],[{file,"src/boss_record_lib.erl"},{line,78}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,413}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,145}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]}]},{gen_server,call,[<0.89.0>,{find,product,[],all,0,id,ascending,[]},30000]}}
+2013-09-07 22:55:23.890 [error] <0.88.0> Supervisor poolboy_sup had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.89.0> exit with reason no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in context child_terminated
+2013-09-07 22:55:23.892 [error] <0.472.0> GET /product/list [klunsr] 500 77ms
+2013-09-07 22:55:38.509 [info] <0.506.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:56:05.444 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:56:05.526 [info] <0.508.0> GET /product/add [klunsr] 200 82ms
+2013-09-07 22:56:09.513 [info] <0.508.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:56:27.571 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:56:27.639 [info] <0.523.0> POST /product/add [klunsr] 302 68ms
+2013-09-07 22:56:27.645 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:56:27.720 [error] <0.91.0> gen_server <0.91.0> terminated with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78
+2013-09-07 22:56:27.722 [error] <0.91.0> CRASH REPORT Process <0.91.0> with 0 neighbours exited with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in gen_server:terminate/6 line 744
+2013-09-07 22:56:27.725 [error] <0.88.0> Supervisor poolboy_sup had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.91.0> exit with reason no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in context child_terminated
+2013-09-07 22:56:27.730 [error] <0.523.0> {{function_clause,[{boss_record_lib,convert_value_to_type,[undefined,string],[{file,"src/boss_record_lib.erl"},{line,78}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,413}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,145}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]}]},{gen_server,call,[<0.91.0>,{find,product,[],all,0,id,ascending,[]},30000]}}
+2013-09-07 22:56:27.731 [error] <0.523.0> GET /product/list [klunsr] 500 77ms
+2013-09-07 22:56:40.514 [info] <0.542.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:56:47.466 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:56:47.537 [error] <0.466.0> gen_server <0.466.0> terminated with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78
+2013-09-07 22:56:47.539 [error] <0.466.0> CRASH REPORT Process <0.466.0> with 0 neighbours exited with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in gen_server:terminate/6 line 744
+2013-09-07 22:56:47.542 [error] <0.88.0> Supervisor poolboy_sup had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.466.0> exit with reason no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in context child_terminated
+2013-09-07 22:56:47.545 [error] <0.544.0> {{function_clause,[{boss_record_lib,convert_value_to_type,[undefined,string],[{file,"src/boss_record_lib.erl"},{line,78}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,413}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,145}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]}]},{gen_server,call,[<0.466.0>,{find,product,[],all,0,id,ascending,[]},30000]}}
+2013-09-07 22:56:47.548 [error] <0.544.0> GET /product/list [klunsr] 500 73ms
+2013-09-07 22:56:49.948 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:56:50.029 [info] <0.544.0> GET /product/add [klunsr] 200 81ms
+2013-09-07 22:56:51.987 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:56:52.056 [info] <0.544.0> POST /product/add [klunsr] 302 69ms
+2013-09-07 22:56:52.060 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:56:52.126 [error] <0.504.0> gen_server <0.504.0> terminated with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78
+2013-09-07 22:56:52.129 [error] <0.504.0> CRASH REPORT Process <0.504.0> with 0 neighbours exited with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in gen_server:terminate/6 line 744
+2013-09-07 22:56:52.134 [error] <0.544.0> {{function_clause,[{boss_record_lib,convert_value_to_type,[undefined,string],[{file,"src/boss_record_lib.erl"},{line,78}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,413}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,145}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]}]},{gen_server,call,[<0.504.0>,{find,product,[],all,0,id,ascending,[]},30000]}}
+2013-09-07 22:56:52.142 [error] <0.88.0> Supervisor poolboy_sup had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.504.0> exit with reason no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in context child_terminated
+2013-09-07 22:56:52.144 [error] <0.544.0> GET /product/list [klunsr] 500 68ms
+2013-09-07 22:57:02.946 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:57:03.025 [info] <0.584.0> GET /product/add [klunsr] 200 79ms
+2013-09-07 22:57:09.778 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:57:09.851 [info] <0.597.0> POST /product/add [klunsr] 302 73ms
+2013-09-07 22:57:09.855 [info] <0.355.0> Loading routes from "/Users/johankock/projects/erlang/boss/klunsr/priv/klunsr.routes" ....
+2013-09-07 22:57:09.924 [error] <0.540.0> gen_server <0.540.0> terminated with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78
+2013-09-07 22:57:09.926 [error] <0.540.0> CRASH REPORT Process <0.540.0> with 0 neighbours exited with reason: no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in gen_server:terminate/6 line 744
+2013-09-07 22:57:09.929 [error] <0.88.0> Supervisor poolboy_sup had child boss_db_controller started with {boss_db_controller,start_link,undefined} at <0.540.0> exit with reason no function clause matching boss_record_lib:convert_value_to_type(undefined, string) line 78 in context child_terminated
+2013-09-07 22:57:09.933 [error] <0.597.0> {{function_clause,[{boss_record_lib,convert_value_to_type,[undefined,string],[{file,"src/boss_record_lib.erl"},{line,78}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_adapter_mongodb,mongo_tuple_to_record,2,[{file,"src/db_adapters/boss_db_adapter_mongodb.erl"},{line,413}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{lists,map,2,[{file,"lists.erl"},{line,1224}]},{boss_db_controller,handle_call,3,[{file,"src/boss_db_controller.erl"},{line,145}]},{gen_server,handle_msg,5,[{file,"gen_server.erl"},{line,585}]}]},{gen_server,call,[<0.540.0>,{find,product,[],all,0,id,ascending,[]},30000]}}
+2013-09-07 22:57:09.935 [error] <0.597.0> GET /product/list [klunsr] 500 70ms
+2013-09-07 22:57:11.518 [info] <0.597.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:57:42.519 [info] <0.616.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:58:13.525 [info] <0.618.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:58:44.526 [info] <0.620.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:59:15.531 [info] <0.622.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 22:59:46.534 [info] <0.624.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms
+2013-09-07 23:00:17.537 [info] <0.626.0> POST /admin/model/heartbeat/2 [cb_admin] 200 0ms

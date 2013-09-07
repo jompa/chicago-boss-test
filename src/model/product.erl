@@ -1,0 +1,2 @@
+-module(product, [Id, Title::string(), Description::string(), Image::string()]).
+-compile(export_all).
