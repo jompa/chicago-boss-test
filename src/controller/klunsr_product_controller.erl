@@ -16,11 +16,19 @@ add('POST', [])->
     {redirect, [{action, "list"}]}.
 
 add_image('GET', [Id]) ->
-    %Product = boss_db:find(Id).
-    ok;
-%add_image('GET', [Id]) ->
+    Product = boss_db:find(Id),
+    {ok, [{product, Product}]};
+add_image('POST', [Id]) ->
+    [{uploaded_file, FileName, Location, Length, _}] = Req:post_files(),
+    Fname = "./priv/static/media/products/" ++ FileName,
+    file:copy(Location, Fname),
+    file:delete(Location),
+    Title = Req:post_param("title"),
+    ProductImage = product_image:new(id, Id, "/static/media/products/" ++ FileName),
+    {ok, SavedProductImage} = ProductImage:save(),
+    {redirect, [{action, "list"}]}.
 
 view('GET', [Id]) ->
     Product = boss_db:find(Id),
     Images = boss_db:find(product_image, [{product_id, 'equals', Id}]),
-    {ok, [{product, Product}]}.
+    {ok, [{product, Product}, {product_images, Images}]}.

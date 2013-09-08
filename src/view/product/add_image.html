@@ -1,9 +1,12 @@
 {% extends "base.html" %}
+
 {% block title %}Create new product{% endblock %}
+
 {% block body %}
-<form method="post">
+<form method="post" enctype="multipart/form-data">
     <input type="text" name="title"/>
-    <textarea name"description"></textarea>
+    <input type="hidden" name="product_id" value="{{ product.id }}"/>
+    <input type="file" name="image"/>
     <input type="submit"/>
 </form>
 {% endblock %}
