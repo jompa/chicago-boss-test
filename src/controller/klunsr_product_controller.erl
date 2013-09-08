@@ -15,6 +15,9 @@ add('POST', [])->
     {ok, SavedProduct} = Product:save(),
     {redirect, [{action, "list"}]}.
 
+
+add_image('GET', []) ->
+    {redirect, [{action, "list"}]};
 add_image('GET', [Id]) ->
     Product = boss_db:find(Id),
     {ok, [{product, Product}]};

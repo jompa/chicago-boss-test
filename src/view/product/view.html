@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block body %}
 <h1>{{ product.title }}</h1>
+<p class="lead">{{ product.description }}</p>
 <ul>
 {% if product_images %}
   {% for product_image in product_images %}
