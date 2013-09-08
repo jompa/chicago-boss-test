@@ -11,10 +11,19 @@ add('GET', []) ->
 add('POST', [])->
     Title = Req:post_param("title"),
     Description = Req:post_param("description"),
-    Product = product:new(id, Title , "fuf"),
+    Product = product:new(id, Title , Description),
     {ok, SavedProduct} = Product:save(),
     {redirect, [{action, "list"}]}.
 
+delete('GET', [Id]) ->
+    Product = boss_db:find(Id),
+    {ok, [{product, Product}]};
+delete('POST', [])->
+    Title = Req:post_param("title"),
+    Description = Req:post_param("description"),
+    Product = product:new(id, Title , Description),
+    {ok, SavedProduct} = Product:save(),
+    {redirect, [{action, "list"}]}.
 
 add_image('GET', []) ->
     {redirect, [{action, "list"}]};

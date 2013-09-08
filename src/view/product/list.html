@@ -4,13 +4,15 @@
 {% if products %}
   {% for product in products %}
     <li>
-    <h3><a href="{% url action="view" %}/{{ product.id }}">{{ product.title }}</a><h3>
-        <p>{{ product.description }}</p>
+        <h3>
+            <a href="{% url action="view" %}/{{ product.id }}">{{ product.title }}</a>
+        </h3>
+        <p>{{ product.description | escapejs }}</p>
     </li>
   {% endfor %}
 {% else %}
 <li>No products!</li>
 {% endif %}
 </ul>
-<a href="{% url action="add" %}">Add product</a>
+<a href="{% url action="add" %}" class="btn">Add product</a>
 {% endblock %}

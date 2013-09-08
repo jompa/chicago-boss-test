@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block body %}
-<h1>{{ product.title }}</h1>
+<h1>DELETE {{ product.title }}</h1>
 <p class="lead">{{ product.description }}</p>
 <a href="{% url action="delete" %}/{{ product.id }}" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-trash"></span> ta bort</a>
 <ul>
