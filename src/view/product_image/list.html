@@ -5,11 +5,13 @@
 <body>
 {% block body %}
 <ul>
-{% if products %}
-  {% for product in products %}
+{% if product_images %}
+  {% for product_image in product_images %}
     <li>
-    <h3><a href="{% url action="view" %}/{{ product.id }}">{{ product.title }}</a><h3>
-        <p>{{ product.description }}</p>
+        <h3>{{ product_image.image }}<h3>
+                <img src="{{ product.image }}"/>
+                <p>{{ product.description }}</p>
+          
     </li>
   {% endfor %}
 {% else %}

@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>{% block title %}Greetings!{% endblock %}</title>
+</head>
+<body>
+{% block body %}
+
+<h1>{{ product.title }}</h1>
+<ul>
+{% if product_images %}
+  {% for product_image in product_images %}
+    <li>
+        <h3>{{ product_image.title }}<h3>
+        <img src="{{ product_image.image }}"/>
+    </li>
+  {% endfor %}
+{% else %}
+<li>No images! <a href="{% url controller="product_image" action="add" %}">go add one..</a></li>
+{% endif %}
+</ul>
+<a href="{% url action="add" %}">Add an image</a>
+{% endblock %}
+</body></html>

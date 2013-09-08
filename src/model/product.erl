@@ -1,2 +1,2 @@
--module(product, [Id, Title::string(), Description::string(), Image::string()]).
+-module(product, [Id, Title::string(), Description::string()]).
 -compile(export_all).
